@@ -5,7 +5,7 @@ function greet(fn: (a: string) => void) => {
 }
 
 function alert(s: string) {
-  alert(s)
+  alert(s);
 }
 
 greet(alert)
