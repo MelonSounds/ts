@@ -1,4 +1,4 @@
-var user = "Guest";
+let user = "Guest";
 
 function greet(fn: (a: string) => void) {
   fn("Welcome " + user);
