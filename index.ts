@@ -8,4 +8,4 @@ function alert(s: string) {
   console.log(s);
 }
 
-greet(alert)
+greet(alert);
